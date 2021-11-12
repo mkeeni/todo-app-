@@ -1,0 +1,26 @@
+<table>
+  <tr class="row">
+    <th>SNO</th>
+    <th>Tasks</th>
+    <th>Date</th>
+    <th>Time</th>
+    <th>Status</th>
+  </tr>
+  <tr *ngFor="let To of ToDode" class="row">
+    <td>{{To.id}}</td>
+    <td>{{To.task}}</td>
+    <td>{{To.date}}</td>
+    <td>{{To.time}}</td>
+    <td><select name="Status">
+        <option value="Incomplete">Incomplete</option>
+        <option value="Complete">Complete</option>           
+        </select>
+    </td>
+  </tr>
+
+</table>
+<br>
+<br>
+<br>
+<br>
+

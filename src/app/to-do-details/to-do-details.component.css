@@ -1,0 +1,18 @@
+table {
+  border: 2px solid black;
+  font-family: verdana;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+th, td {
+  border: 2px solid;
+  border-color: cornflowerblue;
+  text-align: center;
+  padding: 6px;
+  margin: 4px;
+}
+
+tr{
+    border: 1px solid black
+  }
