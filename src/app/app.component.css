@@ -15,3 +15,17 @@ h4 {
   font-size: 30px;
   margin: 6px;
 }
+
+table {
+  border: 2px solid black;
+  border-collapse: collapse;
+  background-color: azure;
+}
+
+td, th {
+  border: 2px solid black;
+  font-size: 16px;
+  text-align:center;
+  font-family: 'Times New Roman';
+  padding: 2px;
+}

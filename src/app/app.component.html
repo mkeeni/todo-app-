@@ -7,3 +7,27 @@
   <h4 style="text-decoration: underline; ">To Do Details:</h4>
   <app-to-do-details></app-to-do-details>
 </div>
+<br/>
+  <h4>HttpClient Data From API</h4>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Id</th>
+      <th>Manufactures</th>
+      <th>Payload Id</th>
+      <th>Wikipedia</th>
+      <th>Website</th>
+      <th>Twitter</th>
+      <th>Description</th>
+    </tr>
+    <tr *ngFor='let t of data'>
+      <td>{{t.mission_name}}</td>
+      <td>{{t.mission_id}}</td>
+      <td>{{t.manufacturers}}</td>
+      <td>{{t.payload_ids}}</td>
+      <td>{{t.wikipedia}}</td>
+      <td>{{t.website}}</td>
+      <td>{{t.twitter}}</td>
+      <td>{{t.description}}</td>
+    </tr>
+  </table>
